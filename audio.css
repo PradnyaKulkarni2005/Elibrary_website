@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062916.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    padding-top: 50px;
+}
+h2 {
+    
+        font-size: 3rem;
+        margin-bottom: 10px;
+        color: #ffffff;
+        padding: 20px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+
+    
+}
+.audio-card {
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    gap: 10px;
+    padding: 6px;
+}
+.audio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.audio-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+.btn-play {
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+.btn-play:hover {
+    background-color: #e55d50;
+    color: #fff;
+}
